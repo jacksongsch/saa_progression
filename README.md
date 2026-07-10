@@ -1,7 +1,4 @@
-# SAA Progression
-
-**Baseline α-synuclein seeding activity and disease progression in
-sporadic and genetic Parkinson's disease in the PPMI cohort.**
+# Baseline α-synuclein seeding activity and disease progression in sporadic and genetic Parkinson's disease in the PPMI cohort
 
 Schumacher JG, Zhang X, Macklin EA, Wang J, Bayati A, Dijkstra JM,
 Watanabe H, Schwarzschild MA, Cortese M, Zhang X, Chen X.
