@@ -42,8 +42,8 @@ check_and_load("RColorBrewer")
 check_and_load("nlme")
 check_and_load("glmmTMB")
 
-# setwd("C:/Users/hpxzh/OneDrive - Mass General Brigham/MC1R/1_LRRK2/EBioM")
-setwd("/Users/xinyuanzhang/Library/CloudStorage/OneDrive-MassGeneralBrigham/MC1R/1_LRRK2/EBioM")
+# (original Windows path removed)
+# setwd handled by knitr root.dir
 ```
 
 # Demographics
@@ -51,8 +51,8 @@ setwd("/Users/xinyuanzhang/Library/CloudStorage/OneDrive-MassGeneralBrigham/MC1R
 Data: Data Latest 02.12.25 - Schumacher et al. 2025.xlsx
 
 ```{r}
-file_path <- "C:/Users/hpxzh/OneDrive - Mass General Brigham/MC1R/1_LRRK2/EBioM/Data Latest 02.12.25 - Schumacher et al. 2025.xlsx"
-# file_path <- "/Users/xinyuanzhang/Library/CloudStorage/OneDrive-MassGeneralBrigham/MC1R/1_LRRK2/EBioM/Data Latest 02.12.25 - Schumacher et al. 2025.xlsx"
+file_path <- "Data/Data Latest 02.12.25 - Schumacher et al. 2025.xlsx"
+# (original Mac path removed)
 
 data_dem1 <- read_excel(file_path, sheet = "Demographic Info")
 
@@ -288,7 +288,7 @@ write_xlsx(data_updrs, "data_updrs.xlsx")
 ```
 
 ```{r}
-# data_updrs <- read_excel("/Users/xinyuanzhang/Library/CloudStorage/OneDrive-MassGeneralBrigham/MC1R/1_LRRK2/EBioM/data_updrs.xlsx")
+# (original path removed)
 
 data_updrs_baseline <- data_updrs %>%
   group_by(participant_id) %>%
@@ -385,7 +385,7 @@ write_xlsx(data_parti, "data_parti.xlsx")
 ```
 
 ```{r}
-# data_parti <- read_excel("/Users/xinyuanzhang/Library/CloudStorage/OneDrive-MassGeneralBrigham/MC1R/1_LRRK2/EBioM/data_parti.xlsx")
+# (original path removed)
 
 data_parti_baseline <- data_parti %>%
   group_by(participant_id) %>%
@@ -469,7 +469,7 @@ write_xlsx(data_moca, "data_moca.xlsx")
 ```
 
 ```{r}
-# data_moca <- read_excel("/Users/xinyuanzhang/Library/CloudStorage/OneDrive-MassGeneralBrigham/MC1R/1_LRRK2/EBioM/data_moca.xlsx")
+# (original path removed)
 
 data_moca_baseline <- data_moca %>%
   group_by(participant_id) %>%
@@ -556,7 +556,7 @@ write_xlsx(data_datscan, "data_datscan.xlsx")
 ```
 
 ```{r}
-# data_datscan <- read_excel("/Users/xinyuanzhang/Library/CloudStorage/OneDrive-MassGeneralBrigham/MC1R/1_LRRK2/EBioM/data_datscan.xlsx")
+# (original path removed)
 
 data_datscan_baseline <- data_datscan %>%
   group_by(participant_id) %>%
@@ -652,8 +652,8 @@ output_saa_main_20250303.pdf
 ## Plot UPDRS-III
 
 ```{r}
-# predicted_path <- "C:/Users/hpxzh/OneDrive - Mass General Brigham/MC1R/1_LRRK2/EBioM/predicted_data.xlsx"
-predicted_path <- "/Users/xinyuanzhang/Library/CloudStorage/OneDrive-MassGeneralBrigham/MC1R/1_LRRK2/EBioM/predicted_data.xlsx"
+# (original Windows path removed)
+predicted_path <- "Output/predicted_data.xlsx"
 
 predicted_updrs <- read_excel(predicted_path, sheet = "updrs")
 

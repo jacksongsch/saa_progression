@@ -15,7 +15,7 @@ Date start: Feb 2025
 %let suffix   =          ; * Suffix for file output ;
 %let today    = %sysfunc(putn(%sysfunc(inputn(&SYSDATE9,date9.)),yymmddn8.))&suffix;
 
-filename out_pdf    "C:\Users\cindy\OneDrive - Mass General Brigham\MC1R\1_LRRK2\EBioM\output_saa_main_20250303.pdf";
+filename out_pdf    "Output/output_saa_main.pdf";
 
 %sysfunc(ifc(&pdf , %str( ods pdf file=out_pdf style=pearl; ),,));
 %sysfunc(ifc(&pdf , %str( ods pdf exclude all; ),,));
@@ -44,7 +44,7 @@ footnote1 "Xinyuan Zhang, draft results";
 |          UPDRS-III          |
 |                             |
 ******************************/
-PROC IMPORT datafile="C:\Users\cindy\OneDrive - Mass General Brigham\MC1R\1_LRRK2\EBioM\data_updrs.xlsx" out=updrs_orig dbms=xlsx replace; RUN;
+PROC IMPORT datafile="Data/data_updrs.xlsx" out=updrs_orig dbms=xlsx replace; RUN;
 PROC CONTENTS data=updrs_orig varnum; RUN;
 
 DATA updrs_orig;
@@ -255,7 +255,7 @@ DATA predicted_updrs;
    KEEP participant_id visit_year visit_year_factor GroupID SAA center_baseline center_agebase center_dxbase 
         center_sex center_race center_hisp center_educlow center_educhigh LEDD mds_updrs_part_iii_summary_score predicted_updrs;
 RUN;
-PROC EXPORT data=predicted_updrs outfile="C:\Users\cindy\OneDrive - Mass General Brigham\MC1R\1_LRRK2\EBioM\predicted_data.xlsx" dbms=xlsx replace; sheet="updrs"; RUN;
+PROC EXPORT data=predicted_updrs outfile="Output/predicted_data.xlsx" dbms=xlsx replace; sheet="updrs"; RUN;
 
 
 /******************************
@@ -264,7 +264,7 @@ PROC EXPORT data=predicted_updrs outfile="C:\Users\cindy\OneDrive - Mass General
 |                             |
 ******************************/
 title5 "UPDRS-I";
-PROC IMPORT datafile="C:\Users\cindy\OneDrive - Mass General Brigham\MC1R\1_LRRK2\EBioM\data_parti.xlsx" out=parti_orig dbms=xlsx replace; RUN;
+PROC IMPORT datafile="Data/data_parti.xlsx" out=parti_orig dbms=xlsx replace; RUN;
 PROC CONTENTS data=parti_orig varnum; RUN;
 
 DATA parti_orig;
@@ -431,7 +431,7 @@ DATA predicted_parti;
    KEEP participant_id visit_year visit_year_factor GroupID SAA center_baseline center_agebase center_dxbase 
         center_sex center_race center_hisp center_educlow center_educhigh LEDD mds_updrs_part_i_summary_score predicted_parti;
 RUN;
-PROC EXPORT data=predicted_parti outfile="C:\Users\cindy\OneDrive - Mass General Brigham\MC1R\1_LRRK2\EBioM\predicted_data.xlsx" dbms=xlsx replace; sheet="parti"; RUN;
+PROC EXPORT data=predicted_parti outfile="Output/predicted_data.xlsx" dbms=xlsx replace; sheet="parti"; RUN;
 
 
 /******************************
@@ -440,7 +440,7 @@ PROC EXPORT data=predicted_parti outfile="C:\Users\cindy\OneDrive - Mass General
 |                             |
 ******************************/
 title5 "MoCA";
-PROC IMPORT datafile="C:\Users\cindy\OneDrive - Mass General Brigham\MC1R\1_LRRK2\EBioM\data_moca.xlsx" out=moca_orig dbms=xlsx replace; RUN;
+PROC IMPORT datafile="Data/data_moca.xlsx" out=moca_orig dbms=xlsx replace; RUN;
 PROC CONTENTS data=moca_orig varnum; RUN;
 
 DATA moca_orig;
@@ -607,7 +607,7 @@ DATA predicted_moca;
    KEEP participant_id visit_year visit_year_factor GroupID SAA center_baseline center_agebase center_dxbase 
         center_sex center_race center_hisp center_educlow center_educhigh LEDD MoCA_score predicted_moca;
 RUN;
-PROC EXPORT data=predicted_moca outfile="C:\Users\cindy\OneDrive - Mass General Brigham\MC1R\1_LRRK2\EBioM\predicted_data.xlsx" dbms=xlsx replace; sheet="moca"; RUN;
+PROC EXPORT data=predicted_moca outfile="Output/predicted_data.xlsx" dbms=xlsx replace; sheet="moca"; RUN;
 
 
 /******************************
@@ -615,7 +615,7 @@ PROC EXPORT data=predicted_moca outfile="C:\Users\cindy\OneDrive - Mass General 
 |           DaTSCan           |
 |                             |
 ******************************/
-PROC IMPORT datafile="C:\Users\cindy\OneDrive - Mass General Brigham\MC1R\1_LRRK2\EBioM\data_datscan.xlsx" out=datscan_orig dbms=xlsx replace; RUN;
+PROC IMPORT datafile="Data/data_datscan.xlsx" out=datscan_orig dbms=xlsx replace; RUN;
 PROC CONTENTS data=datscan_orig varnum; RUN;
 
 DATA datscan_orig;
@@ -820,7 +820,7 @@ DATA predicted_datscan;
    KEEP participant_id visit_year visit_year_factor GroupID SAA center_caudate center_putamen center_agebase center_dxbase 
         center_sex center_race center_hisp center_educlow center_educhigh LEDD sbr_caudate sbr_putamen predicted_caudate predicted_putamen;
 RUN;
-PROC EXPORT data=predicted_datscan outfile="C:\Users\cindy\OneDrive - Mass General Brigham\MC1R\1_LRRK2\EBioM\predicted_data.xlsx" dbms=xlsx replace; sheet="datscan"; RUN;
+PROC EXPORT data=predicted_datscan outfile="Output/predicted_data.xlsx" dbms=xlsx replace; sheet="datscan"; RUN;
 
 
 /******************************

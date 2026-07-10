@@ -1,0 +1,10 @@
+.DS_Store
+__MACOSX/
+Thumbs.db
+*.log
+*.lst
+Data/
+Output/
+*_cache/
+*_files/
+*.html
