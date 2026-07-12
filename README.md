@@ -89,7 +89,7 @@ saa_progression/
 │   ├── table2_updrs3_by_saa.csv                   MDS-UPDRS III by SAA (sporadic/LRRK2/GBA)
 │   ├── table3_updrs3_by_lrrk2_variant.csv         MDS-UPDRS III by LRRK2 variant and SAA
 │   ├── stable1_lrrk2_variant_demographics.csv     LRRK2 variant demographics by SAA
-│   ├── stable2_nonmotor_outcomes_by_saa.csv        MDS-UPDRS I, MoCA, DAT-SPECT by SAA
+│   ├── stable2_nonmotor_outcomes_by_saa.csv       MDS-UPDRS I, MoCA, DAT-SPECT by SAA
 │   ├── stable3_t50_quartiles.csv                  Outcomes by T50 quartile
 │   ├── stable4_ttt_quartiles.csv                  Outcomes by TTT quartile
 │   ├── stable5_auc_quartiles.csv                  Outcomes by AUC quartile
