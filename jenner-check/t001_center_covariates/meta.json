@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_center_covariates",
+  "source_file": "analysis/saa_progression_analysis.sas",
+  "source_blob_sha": "6ba78096c9ade793bdbe71f8377951ae59eeefba",
+  "source_commit": "29109040188c56c6a98da359b094915631b20c2a",
+  "notes": "Grand-mean-centering cross-join PROC SQL from the UPDRS-III block (center_* covariates minus their cohort means) plus the visit_month parse via scan/input/ifn/index. Input is a 21-row mock UPDRS-III dataset matching the repo's column shape and table1 value ranges, standing in for the access-controlled PPMI Data/data_updrs.xlsx."
+}

@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-20T07:40:59+00:00",
+  "_captured_run_id": "r_3db5853e39c44c1a9f1dee4f28531284",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.updrs (21 rows, 24 columns).",
+    "NOTE: PROC FREQ statement used.",
+    "NOTE: PROC CORR ODS Graphics generated."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

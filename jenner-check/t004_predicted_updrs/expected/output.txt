@@ -1,0 +1,13 @@
+                                       Observed vs model-predicted MDS-UPDRS III
+
+
+  Obs  participant_id   GroupID       SAA  visit_year  mds_updrs_part_iii_summary_score  predicted_updrs
+-----  --------------  --------  --------  ----------  --------------------------------  ---------------
+    1             101  SPD       Positive           0                                20        20.731165
+    2             101  SPD       Positive           1                                23        22.629213
+    3             101  SPD       Positive           2                                26        24.527261
+    4             104  LRRK2 PD  Positive           0                                20        22.916685
+    5             104  LRRK2 PD  Positive           1                                22        24.826713
+    6             106  GBA PD    Negative           0                                25        24.292754
+    7             106  GBA PD    Negative           1                                27        25.781538
+

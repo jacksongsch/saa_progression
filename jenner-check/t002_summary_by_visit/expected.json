@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-20T07:40:59+00:00",
+  "_captured_run_id": "r_cfc7e67a4c2748a3b9d8a319a4577a8e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.temp (21 rows, 17 columns).",
+    "NOTE: PROC MEANS statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

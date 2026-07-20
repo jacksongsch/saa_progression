@@ -1,0 +1,42 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA updrs_orig
+
+NOTE: Processing inline DATALINES (21 lines)
+
+NOTE: Read 21 rows from DATALINES.
+NOTE: Wrote updrs_orig (21 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Macro variable M_AGE = 62.9523809524
+NOTE: Macro variable M_DX = 1.0952380952
+NOTE: PROC SQL statement used.
+NOTE: PROC SORT data=updrs_orig
+
+NOTE: Read 21 rows from updrs_orig.
+NOTE: Wrote work.updrs (21 rows, 14 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA work.updrs
+
+
+NOTE: Read 21 rows from work.updrs.
+NOTE: Wrote work.updrs (21 rows, 24 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE6 changed to Check levels and distribution of categorical predictors.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_sex.spec.json
+NOTE: ODS plot written: freq_race.spec.json
+NOTE: ODS plot written: freq_ethnicity.spec.json
+NOTE: ODS plot written: freq_education.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: Option TITLE6 changed to Check correlations among predictors.
+NOTE: PROC CORR data=work.updrs
+
+NOTE: ODS plot written: corr_heatmap.spec.json
+NOTE: PROC CORR ODS Graphics generated.

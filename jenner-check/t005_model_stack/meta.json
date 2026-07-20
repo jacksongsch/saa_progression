@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_model_stack",
+  "source_file": "analysis/saa_progression_analysis.sas",
+  "source_blob_sha": "6ba78096c9ade793bdbe71f8377951ae59eeefba",
+  "source_commit": "29109040188c56c6a98da359b094915631b20c2a",
+  "notes": "Output-stacking pattern from the OUTPUT block: set of per-model estimate tables with indsname=, the reverse(substr(left(reverse(_dsn_)),1,2)) model-number recovery, and the select(model) outcome labelling. Inline self-contained per-model mock tables."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_summary_by_visit",
+  "source_file": "analysis/saa_progression_analysis.sas",
+  "source_blob_sha": "6ba78096c9ade793bdbe71f8377951ae59eeefba",
+  "source_commit": "29109040188c56c6a98da359b094915631b20c2a",
+  "notes": "PROC MEANS summary of MDS-UPDRS III by GroupID and SAA status across visits (nonobs maxdec=2 fw=6 nway, N/mean/quartiles), verbatim from the UPDRS-III block, on the mock UPDRS-III data."
+}
