@@ -1,0 +1,115 @@
+                                   Dx group: #BYVAL(GroupID); SAA status: #BYVAL(SAA)
+
+--------------------------------------------- GroupID=GBA PD SAA=Negative ----------------------------------------------
+
+                                                  The MEANS Procedure
+
+                                  Analysis Variable : mds_updrs_part_iii_summary_score
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 1       0   20.00        .    20.00           20.00   20.00           20.00    20.00
+        ------------------------------------------------------------------------------------------------------
+
+                                       Analysis Variable : mds_updrs_part_iii_chg
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 1       0    0.00        .     0.00            0.00    0.00            0.00     0.00
+        ------------------------------------------------------------------------------------------------------
+
+
+--------------------------------------------- GroupID=GBA PD SAA=Positive ----------------------------------------------
+
+                                                  The MEANS Procedure
+
+                                  Analysis Variable : mds_updrs_part_iii_summary_score
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 1       0   25.00        .    25.00           25.00   25.00           25.00    25.00
+        ------------------------------------------------------------------------------------------------------
+
+                                       Analysis Variable : mds_updrs_part_iii_chg
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 1       0    0.00        .     0.00            0.00    0.00            0.00     0.00
+        ------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------- GroupID=LRRK2 PD SAA=Negative ---------------------------------------------
+
+                                                  The MEANS Procedure
+
+                                  Analysis Variable : mds_updrs_part_iii_summary_score
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 1       0   17.00        .    17.00           17.00   17.00           17.00    17.00
+        ------------------------------------------------------------------------------------------------------
+
+                                       Analysis Variable : mds_updrs_part_iii_chg
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 1       0    0.00        .     0.00            0.00    0.00            0.00     0.00
+        ------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------- GroupID=LRRK2 PD SAA=Positive ---------------------------------------------
+
+                                                  The MEANS Procedure
+
+                                  Analysis Variable : mds_updrs_part_iii_summary_score
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 1       0   20.00        .    20.00           20.00   20.00           20.00    20.00
+        ------------------------------------------------------------------------------------------------------
+
+                                       Analysis Variable : mds_updrs_part_iii_chg
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 1       0    0.00        .     0.00            0.00    0.00            0.00     0.00
+        ------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------- GroupID=SPD SAA=Negative -----------------------------------------------
+
+                                                  The MEANS Procedure
+
+                                  Analysis Variable : mds_updrs_part_iii_summary_score
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 1       0   19.00        .    19.00           19.00   19.00           19.00    19.00
+        ------------------------------------------------------------------------------------------------------
+
+                                       Analysis Variable : mds_updrs_part_iii_chg
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 1       0    0.00        .     0.00            0.00    0.00            0.00     0.00
+        ------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------- GroupID=SPD SAA=Positive -----------------------------------------------
+
+                                                  The MEANS Procedure
+
+                                  Analysis Variable : mds_updrs_part_iii_summary_score
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 2       0   19.00     1.41    18.00           18.00   19.00           20.00    20.00
+        ------------------------------------------------------------------------------------------------------
+
+                                       Analysis Variable : mds_updrs_part_iii_chg
+
+        visit_month       N  N Miss    Mean  Std Dev  Minimum  Lower Quartile  Median  Upper Quartile  Maximum
+        ------------------------------------------------------------------------------------------------------
+        0                 2       0    0.00     0.00     0.00            0.00    0.00            0.00     0.00
+        ------------------------------------------------------------------------------------------------------
+

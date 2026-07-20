@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_predictor_checks",
+  "source_file": "analysis/saa_progression_analysis.sas",
+  "source_blob_sha": "6ba78096c9ade793bdbe71f8377951ae59eeefba",
+  "source_commit": "29109040188c56c6a98da359b094915631b20c2a",
+  "notes": "PROC FREQ predictor-level distributions (Sex/Race/Ethnicity/Education) and PROC CORR predictor correlations, verbatim from the data-checks section, on the mock UPDRS-III data with the repo's centered covariates."
+}

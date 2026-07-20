@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_predicted_updrs",
+  "source_file": "analysis/saa_progression_analysis.sas",
+  "source_blob_sha": "6ba78096c9ade793bdbe71f8377951ae59eeefba",
+  "source_commit": "29109040188c56c6a98da359b094915631b20c2a",
+  "notes": "Predicted MDS-UPDRS III DATA step verbatim from the UPDRS-III block: the fitted mixed-model fixed-effects equation plus the Dx-by-SAA group offsets. Inline self-contained data seeds the centered covariates."
+}

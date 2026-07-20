@@ -1,0 +1,24 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA updrs
+
+NOTE: Processing inline DATALINES (7 lines)
+
+NOTE: Read 7 rows from DATALINES.
+NOTE: Wrote updrs (7 rows, 15 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA predicted_updrs
+
+
+NOTE: Read 7 rows from updrs.
+NOTE: Wrote predicted_updrs (7 rows, 16 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Observed vs model-predicted MDS-UPDRS III.
+NOTE: PROC PRINT data=predicted_updrs
+
+NOTE: PROC PRINT completed: 7 observations printed, 6 variables
